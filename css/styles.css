@@ -1,0 +1,236 @@
+:root {
+    --color-blue: #4d5ae5;
+    --color-dark-blue: #404bbf;
+    --color-dark: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-dark-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-slate);
+    background-color: var(--color-white);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Page Studio */
+
+.header-logo-blue {
+    color: var(--color-blue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-black {
+    color: var(--color-dark);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-nav-link {
+    color: var(--color-dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--color-dark-blue);
+}
+
+.header-contacts {
+    font-style: normal;
+}
+
+.header-contacts-link {
+    color: var(--color-slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--color-dark-blue);
+}
+
+.hero {
+    background-color: var(--color-dark);
+}
+
+.hero-title {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-button {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--color-dark-blue);
+}
+
+.company-title {
+    color: var(--color-dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.company-text {
+    color: var(--color-slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.works-title {
+    color: var(--color-dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team {
+    background-color: var(--color-cloud);
+}
+
+.team-title {
+    color: var(--color-dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list {
+    background-color: var(--color-white);
+}
+
+.team-item {
+    background-color: var(--color-white);
+}
+
+.team-specialist {
+    color: var(--color-dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-job-title {
+    color: var(--color-slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: var(--color-dark);
+}
+
+.footer-logo-blue {
+    color: var(--color-blue);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-white {
+    color: var(--color-cloud);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--color-cloud);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Page Portfolio */
+
+.gallery-filter-button {
+    color: var(--color-blue);
+    background-color: var(--color-cloud);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.gallery-filter-button:hover,
+.gallery-filter-button:focus {
+    color: var(--color-white);
+    background-color: var(--color-dark-blue);
+}
+
+.gallery-title {
+    color: var(--color-dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.gallery-text {
+    color: var(--color-slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
